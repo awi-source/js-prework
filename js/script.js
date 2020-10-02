@@ -29,3 +29,26 @@ if(playerInput == '1'){
     }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if( computerMove == 'kamień' && playerMove == 'papier'){
+    printMessage('Ty wygrywasz!');
+  } else if(computerMove == 'kamień' && playerMove == 'nożyce'){
+    printMessage('Przegyrwasz :-(');
+  } else if(computerMove == 'kamień' && playerMove == 'kamień'){
+      printMessage('Remis, gramy jeszcze raz');
+  } else if(computerMove == 'papier' && playerMove == 'kamień'){
+      printMessage('Niestety, przegrywasz tę rundę');
+  } else if(computerMove == 'papier' && playerMove == 'papier'){
+      printMessage('Remis, jeszcze raz!');
+  } else if(computerMove == 'papier' && playerMove == 'nożyce'){
+      printMessage('Brawo, wygrywasz!');
+  } else if(computerMove == 'nożyce' && playerMove == 'kamień'){
+      printMessage('Wygrywasz!!! Świetnie :-)');
+  } else if(computerMove == 'nożyce' && playerMove == 'papier'){
+      printMessage('Tym razem przegrywasz');
+  } else if(computerMove == 'nożyce' && playerMove == 'nożyce'){
+      printMessage('Myślimy podobnie ;-) spróbujmy jeszcze raz');
+  } else {
+      printMessage('Hej, wybierz jakąś liczbę sposród 1,2,3 ;-)');
+  }
+
