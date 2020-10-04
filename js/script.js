@@ -55,6 +55,8 @@ function playGame(playerInput) {
 
     printMessage('Twój ruch to: ' + playerMove);
 
+    console.log('Komputer wybiera: ' + computerMove + ' Ty wybierasz: ' + playerMove);
+
     let argComputerMove = getMoveName(randomNumber);
 
     let argPlayerMove = getMoveName(playerInput);
@@ -70,3 +72,5 @@ document.getElementById('play-rock').addEventListener('click', function(){
   document.getElementById('play-scissors').addEventListener('click', function(){
     playGame(3)
   });
+
+  

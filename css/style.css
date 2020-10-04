@@ -1,0 +1,22 @@
+body {
+  background: #29cacf;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+  background: #10ac84;
+  padding: 10px;
+  border: 1px solid rgba(33, 6, 97, 0.973);
+  box-shadow: 2px 2px 2px black;
+  margin: 30px 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.messages {
+  font-size: 20px;
+  margin: 30px auto;
+}
+/*# sourceMappingURL=style.css.map */
