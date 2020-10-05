@@ -64,13 +64,13 @@ function playGame(playerInput) {
     displayResult(argComputerMove, argPlayerMove);
 }
 document.getElementById('play-rock').addEventListener('click', function(){
-    playGame(1);
+    playGame('kamień');
   });
   document.getElementById('play-paper').addEventListener('click', function(){
-    playGame(2);
+    playGame('papier');
   });
   document.getElementById('play-scissors').addEventListener('click', function(){
-    playGame(3)
+    playGame('nożyce')
   });
 
   
